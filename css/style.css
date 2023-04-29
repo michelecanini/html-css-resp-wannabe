@@ -144,6 +144,28 @@ MOBILE
 
 @media screen and (max-width: 480px) {
     .container{
-        background-color: blue;
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
     }
 }
