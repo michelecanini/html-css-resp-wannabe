@@ -134,7 +134,7 @@ TABLET
 
 @media screen and (max-width: 768px) {
     .container{
-        background-color: red;
+        width: 100%;
     }
 }
 
