@@ -202,3 +202,13 @@ MOBILE
         padding-top: 3rem;
     }
 }
+
+/*
+BONUS HIDE SCROLLBAR
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    body{
+        overflow-x: hidden;
+    }
+}
