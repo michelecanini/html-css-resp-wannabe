@@ -127,3 +127,23 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/*
+TABLET
+*/
+
+@media screen and (max-width: 768px) {
+    .container{
+        background-color: red;
+    }
+}
+
+/*
+MOBILE
+*/
+
+@media screen and (max-width: 480px) {
+    .container{
+        background-color: blue;
+    }
+}
